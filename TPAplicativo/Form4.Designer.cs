@@ -51,6 +51,7 @@ namespace TPAplicativo
             this.txtcom.Name = "txtcom";
             this.txtcom.Size = new System.Drawing.Size(253, 44);
             this.txtcom.TabIndex = 4;
+            this.txtcom.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtcom_KeyUp);
             // 
             // label1
             // 
@@ -97,6 +98,7 @@ namespace TPAplicativo
             this.txtl.Name = "txtl";
             this.txtl.Size = new System.Drawing.Size(253, 44);
             this.txtl.TabIndex = 15;
+            this.txtl.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtl_KeyUp);
             // 
             // label2
             // 
@@ -116,6 +118,7 @@ namespace TPAplicativo
             this.txtcomp.Name = "txtcomp";
             this.txtcomp.Size = new System.Drawing.Size(253, 44);
             this.txtcomp.TabIndex = 17;
+            this.txtcomp.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtcomp_KeyUp);
             // 
             // label3
             // 

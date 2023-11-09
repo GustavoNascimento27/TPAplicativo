@@ -36,6 +36,30 @@ namespace TPAplicativo
             x = 0;
         }
 
+        private void txtcom_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                txtl.Focus();
+            }
+        }
+
+        private void txtl_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                txtcomp.Focus();
+            }
+        }
+
+        private void txtcomp_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnc1_Click(sender, e);
+            }
+        }
+
         private void voltarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();

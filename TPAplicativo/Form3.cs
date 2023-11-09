@@ -35,6 +35,9 @@ namespace TPAplicativo
         private void btnc2_Click(object sender, EventArgs e)
         {
             txtr.Clear();
+
+
+
             t = Convert.ToDouble(txtc.Text);
             t = t * 1.8 + 32;
             i = 0;
